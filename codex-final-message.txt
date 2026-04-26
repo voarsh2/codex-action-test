@@ -1,3 +1,4 @@
-No file changes were needed for the instruction `hi` or the placeholder issue content.
+Hi. No code or documentation changes were needed for this instruction.
 
-Summary: no code or documentation changed. Tests/checks: not run, since there was no implementation work to verify.
+Summary: no files changed.  
+Tests/checks: not run, since there was nothing to validate.
