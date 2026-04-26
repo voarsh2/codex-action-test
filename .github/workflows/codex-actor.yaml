@@ -29,6 +29,10 @@ jobs:
       issue_number: ${{ github.event.issue.number }}
       is_pull_request: ${{ github.event.issue.pull_request != null }}
       pull_request_number: ${{ github.event.issue.number }}
+      model_provider: theclawbay
+      model: gpt-5.5
+      effort: medium
     secrets:
       codex_api_key: ${{ secrets.CODEX_API_KEY }}
+      codex_base_url: ${{ secrets.CODEX_BASE_URL }}
       codex_responses_api_endpoint: ${{ secrets.CODEX_RESPONSES_API_ENDPOINT }}
